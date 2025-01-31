@@ -1,0 +1,163 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    /* background-image: url(image/bg.jpg); */
+    background: linear-gradient(to bottom, #ff6b6b, #c0392b);
+    /* background: linear-gradient(135deg, #ff4e50, #fc913a); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.logo img {
+    margin-right: 1000px;
+    width: 30vh;
+    position: relative;
+}
+
+main {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1 span {
+    color: #ff9999;
+}
+
+.survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6); /* Warna merah dengan transparansi */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8); /* Efek bayangan */
+}
+
+.survey-question {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.survey-options {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.feedback {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8); /* Efek bayangan */
+}
+
+.feedback > button {
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8); /* Efek bayangan */
+}
+.textarea {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8); /* Efek bayangan */
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Beri jarak antar tombol */
+}
+
+.btn-circle {
+    border-radius: 50%; /* Membuat tombol menjadi lingkaran */
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    transition: 0.3s;
+    border: 2px solid white; /* Tambahkan border agar lebih jelas */
+}
+
+.btn-circle:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Warna latar belakang saat hover */
+    transform: scale(1.1); /* Efek membesar saat hover */
+}
+
+.btn-check:checked + .btn-circle {
+    background-color: #ff4e50 !important; /* Warna merah saat dipilih */
+    color: white !important;
+    border-color: white !important;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+
+/* .radio-group {
+    display: flex;
+    gap: 10px;
+} */
+
+/* .radio-button {
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+} */
+/* .radio-button {
+    background: #ff4e50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.radio-button:hover {
+    background: #fc913a;
+    transform: scale(1.05);
+} */
+
+/* @media (max-width: 768px) {
+    .survey-form {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .survey-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+    }
+} */
